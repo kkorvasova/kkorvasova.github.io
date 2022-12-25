@@ -32,7 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,33 +69,46 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="Karolina_website.jpeg" class="about-image
+  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Karolína Korvasová</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
 </header>
-
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
+    <div class="about-links">
+  <a href="https://twitter.com/KKorvasova" class="about-link">
+    <i class="bi bi-twitter"></i>
+     <span class="about-link-text">twitter</span>
+  </a>
+  <a href="https://github.com/kkorvasova" class="about-link">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<p>I am a computational neuroscientist at the Charles University in Prague.</p>
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<p>Research Centre Jülich, RWTH Aachen | Germany PhD in Biology | April 2014 - June 2022</p>
+<p>Utrecht University | The Netherlands M. Sc. in Mathamatics | September 2009 - June 2011</p>
+<p>Charles University | Prague The Czech Republic Bc. in Mathematis | September 2006 - June 2009</p>
+</section>
+<section id="experience" class="level2">
+<h2 data-anchor-id="experience">Experience</h2>
+<p>Charles University | Prague, The Czech Republic | postdoc | January 2021 - present</p>
+<p>University of Melbourne | Australia | Research Assistant | September 2011 - June 2012</p>
 
 
 </section>
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -117,13 +129,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
